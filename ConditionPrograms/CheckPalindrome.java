@@ -9,7 +9,7 @@ public class demo{
     System.out.print(toceckPalindrome(s));
   }
   static String toceckPalindrome(String s){
-    // Traveresal String from Right To Let
+    // Traveresal String from Right To Left
     int i=0, j=s.length()-1;
     while(i<j){
       // If Both Characters are equal
