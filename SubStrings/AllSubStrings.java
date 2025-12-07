@@ -18,7 +18,7 @@ public class Main {
     {
       for(int size=1;size<=s.length();size++){
         
-      for(int i=0;i<s.length()-size;i++)
+      for(int i=0;i<=s.length()-size;i++)
         {
           String t = "";
           for(int j=i;j<i+size;j++)
